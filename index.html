@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STEMsim Lab | Free Interactive Science Simulations</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --bg: #f8fafc;
+      --text: #0f172a;
+    }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+    }
+    header {
+      background: #1e293b;
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 2.8rem; letter-spacing: -0.025em; }
+    header p { margin-top: 0.75rem; color: #94a3b8; font-size: 1.2rem; }
+    .container {
+      max-width: 900px;
+      margin: 2.5rem auto;
+      padding: 0 1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 1.75rem;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+      border: 1px solid #e2e8f0;
+    }
+    .card h3 { color: var(--primary); margin-top: 0; font-size: 1.4rem; }
+    .card p { color: #64748b; line-height: 1.5; }
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      background: var(--primary);
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>STEMsim Lab</h1>
+    <p>Interactive Science Simulations for Classroom Discovery</p>
+  </header>
+
+  <div class="container">
+    <h2>Explore Simulations</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Physics</h3>
+        <p>Explore forces, motion, waves, circuits, and energy conservation through interactive models.</p>
+        <a href="#" class="btn">Coming Soon</a>
+      </div>
+      <div class="card">
+        <h3>Chemistry</h3>
+        <p>Investigate chemical reactions, gas laws, atomic structure, and stoichiometry.</p>
+        <a href="#" class="btn">Coming Soon</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
